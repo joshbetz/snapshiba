@@ -1,3 +1,3 @@
 <?php
 define( 'SNAPCHAT_USERNAME', 'user' );
-define(' SNAPCHAT_PASSWORD', 'password' );
+define( 'SNAPCHAT_PASSWORD', 'password' );
