@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SnapCorgi</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js.js"></script>
+	<meta property="og:image" content="http://snapcorgi.com/corgi.jpg"/>
+</head>
+<body>
+	<div class="container" id="corgitron">
+		<div class="col-md-12">
+			<h1>SnapCorgi</h1>
+		</div>
+		<div class="col-md-12">
+			<div class="col-md-12">
+				<img src="corgi-big.jpg" align="center" id="corgi-picture">
+			</div>
+			<p class="lead">Receive a corgi SnapChat every morning to brighten your day. Just let us know your SnapChat username, and we'll take care of the rest.</p>
+			<form class="form-inline form-horizontal" id="signup-form">
+				<div class="col-xs-6 col-md-offset-2">
+					<input type="name" placeholder="Your SnapChat Username" class="form-control input-lg" id="snap-name">
+				</div>
+				<div class="col-xs-2">
+					<button id="corgi-signup" type="button" class="btn btn-primary btn-lg">Bring On the Cute <img src="corgi-icon.png" style="margin-top: -12px"></button>
+				</div>
+			</form>
+			<div class="alert alert-success" id="signed-up">
+				<p><strong>You're almost done!</strong> We've added you as a SnapChat friend. To receive daily corgis, you will need to open SnapChat and add <strong>dailycorgi</strong> as a friend.</p>
+			</div>
+			<div class="alert alert-danger" id="signup-failure">
+				<p>Oops! Your username doesn't look quite right. Mind double checking?</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			Project by <a href="http://philcrumm.com">PK Crumm</a>. Corgi by <a href="http://www.flickr.com/photos/10285568@N07/9540329833/in/photolist-fx3FFp-8suyYP-7KmTHL-2VaD5g-9goD8R-9rt8Y1-9yZiUG-bKnAzx-r3QdD-fdTvbu-5dLDiu-dwCw9A-aPLXuc-7KsBg6-4Pf6H9-4Pf6Gb-4PaQHe-4Pf6L7-4Pf6Ko-4PaQMz-4Pf6Ju-dpm7cx-frcBk4-6QvfKX-6QzjSA-bwLWCa-bwLTZz-EeTia-akE5e-9E8jX3-9E8pWN-euCJ7u-9fdf9W-5ye8qT-dpmgHG-4RhpEJ-KN1Cy-3AfN5k-992tRc-9rtcfU-9rtc8s-9rtckQ-5mTwXu-5mTwRN-5mTwLG-5mPpCt-qZo4Y-5zz9Js-bUai6V-5Bdiz5-5J1D7s">Austin White</a>. Inspired by <a href="https://news.ycombinator.com/item?id=6994940">Pug-o-matic</a>.
+		</div>
+	</div>
+</body>
+</html>

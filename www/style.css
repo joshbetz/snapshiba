@@ -1,0 +1,31 @@
+.lead {
+	text-align: center;
+}
+
+#signup-form {
+	margin: 0 auto;
+}
+
+.footer {
+	margin-top: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+
+#corgitron {
+	text-align: center;
+}
+
+#corgi-picture {
+	padding: 10px 0px;
+}
+
+#signed-up {
+	clear: both;
+	display: none;
+}
+
+#signup-failure {
+	clear: both;
+	display: none;
+}

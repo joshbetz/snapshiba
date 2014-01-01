@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.snapcorgi.com$ [NC]
+RewriteRule ^(.*)$ http://snapcorgi.com/$1 [R=301,L]
