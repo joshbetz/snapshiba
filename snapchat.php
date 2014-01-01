@@ -15,7 +15,7 @@ class SnapchatUtil {
 		$snap = self::login();
 
 		$id = $snap->upload(
-			SNAPCHAT::MEDIA_VIDEO,
+			SNAPCHAT::MEDIA_IMAGE,
 			$photo_contents
 		);
 
