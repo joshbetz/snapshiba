@@ -20,6 +20,17 @@
 	padding: 10px 0px;
 }
 
+@media (max-width: 600px) {
+	#corgi-picture-cont {
+		display: none;
+	}
+	#snap-name, #corgi-signup, #button-cont {
+		display: block;
+		clear: both;
+		width: 300px !important;
+	}
+}
+
 #signed-up {
 	clear: both;
 	display: none;
