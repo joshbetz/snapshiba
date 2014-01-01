@@ -1,6 +1,6 @@
 <?php
-require_once 'php-snapchat/snapchat.php';
-require_once 'secrets.php';
+require_once realpath( dirname( __FILE__ ) . '/php-snapchat/snapchat.php' );
+require_once realpath( dirname( __FILE__ ) . '/secrets.php' );
 
 class SnapchatUtil {
 	public static function add_friend( $username ) {
