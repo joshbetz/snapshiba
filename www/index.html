@@ -9,6 +9,14 @@
 	<meta property="og:image" content="http://snapcorgi.com/corgi.jpg"/>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&appId=348144018579168";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="container" id="corgitron">
 		<div class="col-md-12">
 			<h1>SnapCorgi</h1>
@@ -34,7 +42,12 @@
 			</div>
 		</div>
 	</div>
+	<div class="col-md-2 col-md-offset-5" id="social-buttons">
+		<div class="fb-share-button" data-href="http://snapcorgi.com" data-type="button_count"></div>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
 
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
 	<div class="footer">
 		<div class="container">
 			Project by <a href="http://philcrumm.com">PK Crumm</a>. Corgi by <a href="http://www.flickr.com/photos/10285568@N07/9540329833/in/photolist-fx3FFp-8suyYP-7KmTHL-2VaD5g-9goD8R-9rt8Y1-9yZiUG-bKnAzx-r3QdD-fdTvbu-5dLDiu-dwCw9A-aPLXuc-7KsBg6-4Pf6H9-4Pf6Gb-4PaQHe-4Pf6L7-4Pf6Ko-4PaQMz-4Pf6Ju-dpm7cx-frcBk4-6QvfKX-6QzjSA-bwLWCa-bwLTZz-EeTia-akE5e-9E8jX3-9E8pWN-euCJ7u-9fdf9W-5ye8qT-dpmgHG-4RhpEJ-KN1Cy-3AfN5k-992tRc-9rtcfU-9rtc8s-9rtckQ-5mTwXu-5mTwRN-5mTwLG-5mPpCt-qZo4Y-5zz9Js-bUai6V-5Bdiz5-5J1D7s">Austin White</a>. Inspired by <a href="https://news.ycombinator.com/item?id=6994940">Pug-o-matic</a>.

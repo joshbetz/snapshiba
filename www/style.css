@@ -7,9 +7,10 @@
 }
 
 .footer {
-	margin-top: 30px;
+	margin-top: 50px;
 	font-size: 12px;
 	text-align: center;
+	clear: both;
 }
 
 #corgitron {
@@ -39,4 +40,21 @@
 #signup-failure {
 	clear: both;
 	display: none;
+}
+
+iframe {
+	width: 100px;
+	height: 50px;
+}
+
+.twitter-share-button {
+	left: 100px;
+	top: 9px;
+	position: relative;
+}
+
+.fb-share-button {
+	top: 5px;
+	left: 0px;
+	position: relative;
 }
