@@ -8,7 +8,10 @@ $(document).ready( function() {
 		else {
 			$( '#signup-failure' ).hide( 'slow' );
 			$( '#signup-form' ).hide( 'slow' );
-			$( '#signed-up' ).show( 'slow' );
+
+			$.ajax( { url: 'http://snapcorgi.com/add.php?username=' + username } ).done( function() {
+				$( '#signed-up' ).show( 'slow' );;
+			} );
 		}
 	} );
 } );
